@@ -7,16 +7,36 @@
   height: 40vmin;
   pointer-events: none;
 }
+.tablestyle {
+  width: 75%;
+  left: 30px;
+  top: 19px;
+}
+
+.demoForm {
+  width: 28%;
+  text-align: center;
+  display: inline-block;
+}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #282bad;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 84.5%;
+}
+.error {
+  margin-top: 10px;
+  color: red;
 }
 
 .App-link {
@@ -30,4 +50,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+.mdbtn {
+  margin-left: 10px !important;
+}
+
+.navbar {
+  position: relative !important;
+  min-height: 50px !important;
+  border-radius: 0px !important;
+  background: #282bad !important;
+}
+
+.navbar-brand a {
+  color: white !important;
+}
+
+.dataTables_wrapper {
+  text-align: center !important;
+  position: absolute !important;
+  width: 72% !important;
+  margin-left: 6% !important;
+  margin-right: 15% !important;
+}
+
+.react-date-picker__wrapper {
+  border: 0px !important;
+}
+
+.react-date-picker__inputGroup__input:invalid {
+  background: 0% !important;
+}
+
+tbody + thead {
+  display: none;
 }
